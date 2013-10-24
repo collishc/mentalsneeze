@@ -20,7 +20,7 @@
  */
 
 body {
-  background-image: url('../images/wood.jpg');
+  background-image: url('../images/file3251245072449.jpg');
 }
 
 #page {
@@ -31,6 +31,7 @@ body {
 
 #header {
   border-bottom: 2px solid black;
+  margin-bottom: 2px;
 }
 
 #navigation {
@@ -62,6 +63,11 @@ body {
 }
 
 #block-system-navigation {
+  padding: 5px;
+  border:  1px solid black;
+}
+
+#block-user-login {
   padding: 5px;
   border:  1px solid black;
 }
