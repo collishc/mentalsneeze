@@ -19,6 +19,53 @@
  * HTML5 display definitions
  */
 
+body {
+  background-image: url('../images/wood.jpg');
+}
+
+#page {
+  margin-top:       30px;
+  border:           1px solid black;
+  background-color: #ffffff;
+}
+
+#header {
+  border-bottom: 2px solid black;
+}
+
+#navigation {
+}
+#navigation nav ul li {
+  border:           3px outset black;
+  background-color: #666666;
+  padding:          5px;
+  spacing:          10px;
+}
+#navigation nav ul li a {
+  font-size:       125%;
+  color:           #ffffff;
+  font-weight:     bold;
+  text-decoration: none;
+}
+
+#content {
+  border-top: 2px solid black;
+}
+#content article {
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+#block-search-form {
+  padding: 5px;
+  border:  1px solid black;
+}
+
+#block-system-navigation {
+  padding: 5px;
+  border:  1px solid black;
+}
+
 /* Correct `block` display not defined in IE 8/9. */
 article,
 aside,
@@ -107,9 +154,9 @@ html {
   /* Use a 12px base font size. 16px x 75% = 12px */
   font-size: 75%; /* 3 */
   /* Use a 14px base font size. 16px x .875 = 14px */
-  font-size: 87.5%; /* 3 */
+  /* font-size: 87.5%; 3 */
   /* Use a 16px base font size. */
-  font-size: 100%; /* 3 */
+  /* font-size: 100%; 3 */
 
   -ms-text-size-adjust: 100%;     /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
