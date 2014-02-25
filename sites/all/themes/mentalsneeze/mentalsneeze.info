@@ -51,6 +51,11 @@ stylesheets[all][] = system.theme.css
 
 ; Then we add our own stylesheet.
 stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/layouts/responsive.css
+stylesheets[all][] = css/components/misc.css
+stylesheets[all][] = css/print.css
+stylesheets[all][] = css/mentalsneeze.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
 ; Instead, Zen now adds conditional-comment-included classes to the html

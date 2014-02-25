@@ -19,59 +19,6 @@
  * HTML5 display definitions
  */
 
-body {
-  background-image: url('../images/file3251245072449.jpg');
-}
-
-#page {
-  margin-top:       30px;
-  border:           1px solid black;
-  background-color: #ffffff;
-}
-
-#header {
-  border-bottom: 2px solid black;
-  margin-bottom: 2px;
-}
-
-#navigation {
-}
-#navigation nav ul li {
-  border:           3px outset black;
-  background-color: #666666;
-  padding:          5px;
-  spacing:          10px;
-}
-#navigation nav ul li a {
-  font-size:       125%;
-  color:           #ffffff;
-  font-weight:     bold;
-  text-decoration: none;
-}
-
-#content {
-  border-top: 2px solid black;
-}
-#content article {
-  padding: 5px;
-  border-bottom: 1px solid black;
-}
-
-#block-search-form {
-  padding: 5px;
-  border:  1px solid black;
-}
-
-#block-system-navigation {
-  padding: 5px;
-  border:  1px solid black;
-}
-
-#block-user-login {
-  padding: 5px;
-  border:  1px solid black;
-}
-
 /* Correct `block` display not defined in IE 8/9. */
 article,
 aside,
